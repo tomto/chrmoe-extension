@@ -1,0 +1,106 @@
+﻿@charset "UTF-8";
+
+/* CSS Reset */
+
+/*#yyApp *, #yyApp *:before, #yyApp *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }*/
+
+/*#yanyuanExtensions2 input, #yanyuanExtensions2 button, #yanyuanExtensions2 select { font: inherit; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; background-color: transparent; }*/
+/*#yanyuanExtensions2 input[type="text"], #yanyuanExtensions2 select { padding: 5px; border: 1px solid #ccc; }
+#yanyuanExtensions2 input::-webkit-input-placeholder { color: #aaa; }
+#yanyuanExtensions2 input::-moz-placeholder { color: #aaa; }
+#yanyuanExtensions2 input:-ms-input-placeholder { color: #aaa; }
+
+#yanyuanExtensions2 table { border-spacing: 0; border-collapse: collapse; }
+#yanyuanExtensions2 a { color: #222; }
+#yanyuanExtensions2 a, #yanyuanExtensions2 a:active, #yanyuanExtensions2 a:hover { cursor: pointer; text-decoration: none; }
+#yanyuanExtensions2 b, #yanyuanExtensions2 i, #yanyuanExtensions2 em { font-weight: normal; font-style: normal; }
+#yanyuanExtensions2 i { display: inline-block; vertical-align: middle; }
+#yanyuanExtensions2 img { width: 100%; vertical-align: middle; border: 0; }
+#yanyuanExtensions2 .clear:after { display: block; clear: both; height: 0; line-height: 0; font-size: 0; content: "\20"; }
+
+
+*/
+/*#yyApp { line-height: 1.5; font-family: Arial, Helvetica,sans-serif; font-size: 12px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; color: #222; background-color: #fff; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+
+#yyApp .green { color: #0ba672; }
+#yyApp .red { color: #fb3d3d; }
+#yyApp .gray { color: #aaa; }
+
+#yyApp .btn-green { color: #fff; border: 1px solid #0ba672; background: #0ba672; }
+#yyApp .btn-green:hover { color: #fff; border-color: #0eb27b; background: #0eb27b; }
+#yyApp .btn-gray { color: #777; border: 1px solid #888; background: #fff; }
+#yyApp .btn-gray:hover { color: #777; border-color: #888; background: #fff; }*/
+/*
+#yanyuanExtensions2 .rowwrap .col { float: left; margin-right: 20px; margin-bottom: 10px; }
+#yanyuanExtensions2 .rowwrap .col:last-child { margin-right: 0; }
+#yanyuanExtensions2 .rowwrap .col > span { display: block; float: left; }
+#yanyuanExtensions2 .rowwrap .col > .tt, #yanyuanExtensions2 .rowwrap .col > .gray { padding-top: 6px; }
+
+#yanyuanExtensions2 .closeExtensionsBtn { position: absolute; top: 10px; right: 10px; display: block; width: 30px; height: 30px; line-height: 30px; font-size: 30px; text-align: center; color: #fff; border-radius: 100%; background: url(http://img07.yiguoimg.com/e/web/170421/00941/icon-close.png) no-repeat center #aaa; background-size: 40% 40%; }
+#yanyuanExtensions2 .req { display: none; }
+*/
+
+/*#yyApp .extensions-mask { z-index: 1001; position: fixed; top: 0; right: 0; bottom: 0; left: 0; opacity: .5; background: #000; }
+#yyApp .extensions-wrap { z-index: 1002; position: fixed; top: 10px; right: 10px; bottom: 10px; left: 10px; padding: 20px 20px 30px; background: #fff; }*/
+/*
+#yanyuanExtensions2 .filterbar { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ccc; }
+#yanyuanExtensions2 .filterbar .btn-filter { display: block; margin-right: 10px; padding: 5px 15px; text-align: center; border-radius: 3px; }
+
+#yanyuanExtensions2 .basicInfo { margin-bottom: 5px; }
+
+#yanyuanExtensions2 .table-wrap { overflow: hidden; width: 100%; border: 1px solid #ccc; }
+#yanyuanExtensions2 .table-wrap table { width: 100%; background: #fff; }
+#yanyuanExtensions2 .table-wrap tr { border-bottom: 1px solid #eee; }
+#yanyuanExtensions2 .table-wrap thead tr{border-bottom-color:#ddd;}
+#yanyuanExtensions2 .table-wrap tbody tr:last-child { border-bottom-width:0; }
+#yanyuanExtensions2 .table-wrap tr:nth-of-type(even) { background: #f9f9f9; }
+#yanyuanExtensions2 .table-wrap th { padding: 10px 5px; font-weight: normal; background: #eee; }
+#yanyuanExtensions2 .table-wrap td { padding: 7px 5px; text-align: center; }
+#yanyuanExtensions2 .table-wrap .input { width:100%; margin: 0 auto; text-align: center; background: #fff; }
+#yanyuanExtensions2 .table-wrap .select { background: #fff; }
+#yanyuanExtensions2 .table-wrap .input.tl { text-align: left; }
+#yanyuanExtensions2 .table-wrap .checkbox { display: block; margin: 0 auto; }
+#yanyuanExtensions2 .table-wrap .btn a { padding: 0 7px; }
+#yanyuanExtensions2 .table-wrap .btn a:hover { text-decoration: underline; }
+#yanyuanExtensions2 .table-wrap .tfoot { padding: 10px 0;border-top: 1px solid #ddd; }
+#yanyuanExtensions2 .table-wrap .tfoot .btn-add { display: block; float: right; margin-right: 10px; padding: 5px 10px; border-radius: 3px; }
+#yanyuanExtensions2 .table-wrap .tfoot .checkbox-all { float: left; margin: 9px 0 0 0 ; }
+#yanyuanExtensions2 .table-wrap .tfoot .checkbox-all input { float: left; margin: 0 7px 0 13px; vertical-align: middle; }
+#yanyuanExtensions2 .table-wrap .nodata{ padding: 20px 0; }
+
+#yanyuanExtensions2 .errorMsgs { position: relative; display: none; margin-top: 10px; padding-left: 40px; }
+#yanyuanExtensions2 .errorMsgs .tt { position: absolute; top: 0; left: 0; }
+#yanyuanExtensions2 .errorMsgs p { float: left; margin-right: 5px; }
+#yanyuanExtensions2 .errorMsgs p:after { display: block; float: right; content: "，"; }
+#yanyuanExtensions2 .errorMsgs p:last-child:after { display: none; }
+
+#yanyuanExtensions2 .btnbar { width: 100%; padding-top: 20px; text-align: center; }
+#yanyuanExtensions2 .btnbar .btn-submit { display: inline-block; padding: 10px 30px; font-size: 14px; border-radius: 3px; }
+
+#yanyuanExtensions2 .calendar { width: 200px; cursor: pointer; background: url(http://img07.yiguoimg.com/e/web/170421/00941/icon-calendar.png) no-repeat; background-position: calc( 100% - 5px) 50%; background-size: auto 60%; }
+#yanyuanExtensions2 .selectbox { position: relative; width: 200px; }
+
+#yanyuanExtensions2 .selectbox .btn { display: block; width: 200px; }
+#yanyuanExtensions2 .selectbox .dropdown li { position: relative; cursor: pointer; }
+#yanyuanExtensions2 .selectbox .dropdown li:hover, #yanyuanExtensions2 .selectbox .dropdown li.selected { font-weight: bold; color: #0ba672; }
+#yanyuanExtensions2 .selectbox .dropdown li.selected:after { position: absolute; top: 50%; right: 10px; display: block; width: 10px; height: 7px; margin-top: -4px; content: ""; background: url(http://img07.yiguoimg.com/e/web/170421/00941/icon-tick.png); }
+
+#yanyuanExtensions2 .popup { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: none; width: 100%; height: 100%; font-size: 14px; background: rgba(0,0,0,.2); }
+#yanyuanExtensions2 .popup.block { display: table; }
+#yanyuanExtensions2 .popup .popup-wrap { display: table-cell; text-align: center; vertical-align: middle; }
+#yanyuanExtensions2 .popup .popup-box { display: inline-block; width: 450px; padding: 20px; background: #fff; }
+#yanyuanExtensions2 .popup .popup-tt{ margin-bottom: 10px; }
+#yanyuanExtensions2 .popup .popup-con { min-height: 70px; padding-bottom: 15px; word-wrap: break-word; }
+#yanyuanExtensions2 .popup .popup-btn a { display: inline-block; margin: 0 10px; padding: 5px 20px; border-radius: 3px; }*/
+/*
+#yanyuanExtensions2 .table-wrap .input.disabled, #yanyuanExtensions2 .table-wrap .select.disabled { color: #222; border-color: transparent; background: transparent;-webkit-appearance: none;}
+#yanyuanExtensions2 .table-wrap .errorbox {border: 1px solid #fb3d3d;}*/
+
+
+
+.openExtensionsBtn {width: 300px;min-height: 80px; right: 20px; bottom: 20px; font-size: 14px; }
+.openExtensionsBtn a { display: block; float: left; margin-left: 20px; padding: 10px 15px; color: #fff; background: #0ba672; }
+.openExtensionsBtn .hide {display: none}
+.openExtensionsBtn a, .openExtensionsBtn a:active, .openExtensionsBtn a:hover { cursor: pointer; text-decoration: none; }
+
+/*.el-row {margin-bottom: 20px;}*/
